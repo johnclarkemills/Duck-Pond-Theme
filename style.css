@@ -82,7 +82,7 @@ nav a:hover{
     color:yellow;
 }
 #top_row{
-    height:195px;
+    height:100%;
     width: 642px;
     margin-left:-37px;
     float:left;
@@ -91,7 +91,7 @@ nav a:hover{
 #bottom_row{
     float:left;
     width:642px;
-    height:180px;
+    height:10px;
     margin-left:-37px;
     background-color:rgba(248, 65, 43, 0.85);
 }

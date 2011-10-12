@@ -18,12 +18,10 @@
                 <nav>
                     <ul>
                         <li><a href="/">Home</a></li>
-                        <li><a href="/">Wiki</a></li>
                         <li><a href="/">The Pond</a></li>
-                        <li><a href="/">Events</a></li>
-
-                        <li><a href="/">Media</a></li>
-                        <li><a href="/">Store</a></li>
+                        <li><a href="/pages/events">Events</a></li>
+                        <li><a href="/pages/media">Media</a></li>
+                        <li><a href="/pages/store">Store</a></li>
                     </ul>
                 </nav>
 				
