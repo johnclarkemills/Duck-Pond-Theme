@@ -1,0 +1,123 @@
+/*
+Theme Name: Duck Pond Theme
+Theme URI:
+Description: Duck Pond web site
+Author: John Mills, Tom Hirashima, Jaime Vasquez
+Version: 1.0
+*/
+html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,abbr, address, cite, code,del, dfn, em, img, ins, kbd, q, samp,small, strong, sub, sup, var,b, i,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, dialog, figure, footer, header,hgroup, menu, nav, section,time, mark, audio, video { margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent;}
+body {line-height:1; font-size:100%; font-family:Arial,sans-serif; background-color:#fff; color:#333; }
+article, aside, dialog, figure, footer, header,hgroup, nav, section {display:block;}
+nav ul {list-style-type:none;}
+li {list-style-type:none;}
+blockquote, q {quotes:none;}
+blockquote:before, blockquote:after,q:before, q:after {content:'';content:none;}
+a img{border:0px;outline:0px;}
+a {margin:0;padding:0;border:0;font-size:100%;vertical-align:baseline;background:transparent; text-decoration:none; outline:0px; font-style:normal;}
+ins {background-color:#ff9;color:#000;text-decoration:none;}
+mark {background-color:#ff9;color:#000;font-style:italic;}
+del {text-decoration: line-through;}
+abbr[title], dfn[title] {border-bottom:1px dotted #000;cursor:help;}
+table {border-collapse:collapse;border-spacing:0;}
+hr {display:block;height:1px;border:0;border-top:1px solid #EDE7D9;margin:1em 0;padding:0;}
+input, select {vertical-align:middle; }
+.left { float: left; }
+.right { float: right; }
+
+body{
+    margin:0;
+    padding:0;
+    height:100%;
+    background: #baddfc; /* Old browsers */
+    background: -moz-linear-gradient(top, #baddfc 0%, #ed9017 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#baddfc), color-stop(100%,#ed9017)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #baddfc 0%,#ed9017 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #baddfc 0%,#ed9017 100%); /* Opera11.10+ */
+    background: -ms-linear-gradient(top, #baddfc 0%,#ed9017 100%); /* IE10+ */
+    background: linear-gradient(top, #baddfc 0%,#ed9017 100%); /* W3C */
+}
+#wrapper{
+    width:100%;
+    height:100%;
+    padding-left: 0px;
+    text-align:center;
+    background:url(images/bg3.jpg) no-repeat center top;
+}
+#content{
+    width:900px;
+    min-height:450px;
+    padding-top:98px;
+    background:url(images/welcome_home.png) no-repeat 0 10px;
+    text-align:left;
+    margin:0 auto;
+}
+#content aside{
+    float:right;
+    width:295px;
+}
+nav{
+    margin-left:-108px;
+    padding-bottom:49px;
+    margin-bottom:-49px; 
+    background: url(images/nav_wedge.png) no-repeat left bottom;
+     
+}
+nav ul, nav li{
+    margin:0;
+    padding:0;
+    background-color:#C83089;
+}
+nav li{
+    display:inline-block;            
+    height:50px;
+}
+nav a{
+    font-family: 'Bevan', serif;
+    text-decoration:none;
+    line-height:50px;
+    padding:0 10px;
+    color:#fff;
+}
+nav a:hover{
+    color:yellow;
+}
+#top_row{
+    height:195px;
+    width: 642px;
+    margin-left:-37px;
+    float:left;
+    background-color:rgba(247, 122, 41, .80);
+}
+#bottom_row{
+    float:left;
+    width:642px;
+    height:180px;
+    margin-left:-37px;
+    background-color:rgba(248, 65, 43, 0.85);
+}
+#logo_container{
+    height:195px;
+    background-color:rgba(241, 36, 82, .24);
+    background-image:url(images/logo.png);
+    background-repeat:no-repeat;
+    background-position:center 30px;
+}
+#video_container{
+    height:230px;
+    background-color:#87cdd7;
+}
+#content_footer{
+    height:50px;
+    width:642px;
+    clear:left;
+    margin-left:-37px;
+    background-color:rgba(240, 240, 240, .6);
+}
+footer{
+    margin:10px auto 0 auto;
+    width:900px;
+    text-align:left;
+    color:#c04418;
+    font-size:10px;
+    font-family:verdana, arial, sans-serif;
+}
