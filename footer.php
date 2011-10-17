@@ -1,4 +1,5 @@
-                </section>
+					</div> <!-- content-areas -->
+				</section>
                 <section id="bottom_row">
 
                 </section>
@@ -7,7 +8,7 @@
                 </section>
             </section>
             <footer>
-                2011 Copyright DuckPond. Design by Jamie Vasquez.
+                2011 Copyright Duck Pond. Design by Jamie Vasquez.
             </footer>
 
         </section>

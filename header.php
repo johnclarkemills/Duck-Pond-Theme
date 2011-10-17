@@ -12,18 +12,18 @@
 	</head>
 
 	<body <?php body_class(); ?>>
-	
         <section id="wrapper">
             <section id="content">
                 <nav>
                     <ul>
                         <li><a href="/">Home</a></li>
-                        <li><a href="/">The Pond</a></li>
-                        <li><a href="/pages/events">Events</a></li>
-                        <li><a href="/pages/media">Media</a></li>
-                        <li><a href="/pages/store">Store</a></li>
+                        <li><a href="/about">The Pond</a></li>
+                        <li><a href="/events">Events</a></li>
+                        <li><a href="/media">Media</a></li>
+                        <li><a href="/store">Store</a></li>
                     </ul>
                 </nav>
 				
 				<?php get_sidebar(); ?>
                 <section id="top_row">
+					<div class="content-areas">
