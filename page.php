@@ -11,7 +11,7 @@
             <?php edit_post_link('Edit', '<p>', '</p>'); ?>
         </article>
 
-		<?php comments_template(); ?>
+<!--		<?php comments_template(); ?>   -->
 
 	<?php endwhile; else: ?>
 
